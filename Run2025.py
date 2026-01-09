@@ -185,7 +185,7 @@ print(rozlozeni_vzd)
 
 #hranice prevyseni
 hran_prev = [0, 100, 150, 200, 300, 500, 1000, float('inf')] # musi tam byt omezeni zdola (0) a shora (float)
-intervaly_prev = ['0-100 m', '100-150 m', '150-200 m', '200-300 m', '300-500 m', '500-1000','nad 1 km']
+intervaly_prev = ['0-100 m', '100-150 m', '150-200 m', '200-300 m', '300-500 m', '500-1000 m','nad 1 km']
 prev = pd.cut(
         prehled['Celkový výstup'], #odkud to brát
         bins = hran_prev, 
@@ -214,5 +214,6 @@ plt.title("Počet aktivit podle vzdálenosti a převýšení")
 plt.xlabel("Vzdálenost [km]")
 plt.ylabel("Převýšení [m]")
 plt.show()
+
 
 
