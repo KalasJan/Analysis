@@ -3,7 +3,7 @@
 # otevreni souboru a vykresleni tabulky
 import pandas as pd
 
-prehled = pd.read_csv(r'C:\Users\kalas\Plocha\kody\Python code\Knihy\Knihy.csv',
+prehled = pd.read_csv(r'Knihy.csv',
                       sep = ';', encoding = 'utf-8',
                       dtype={'Stran': int, 'Rok vydání': int} )
 # cesta, sep = oddelovac, dtype = oddeleni string a cisla
