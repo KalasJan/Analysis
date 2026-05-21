@@ -4,7 +4,7 @@ import pandas as pd
 import sqlite3
 
 #nacteni CSV (puvodniho)
-sou = pd.read_csv(r'C:\Users\kalas\Plocha\kody\Python code\Analýzy\Run_2025\Run_2025.csv',
+sou = pd.read_csv(r'Run_2025.csv',
                   sep = ';', # oddelovac
                   decimal = ',', #jak chapat desetinne cislo
                   thousands = ' ',
