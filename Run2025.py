@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
 
 # 1) otevreni souboru a vykresleni tabulky
-prehled = pd.read_csv(r'C:\Users\kalas\Plocha\kody\Python code\Analýzy\Run_2025\Run_2025.csv',
+prehled = pd.read_csv(r'Run_2025.csv',
                       sep = ';', # oddelovac
                       decimal = ',', #jak chapat desetinne cislo
                       thousands = ' ',
