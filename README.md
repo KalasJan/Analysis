@@ -6,6 +6,7 @@
 - **Book Database & SQL Operations:** Computational pipelines for structured data management, combining CSV storage with relational database queries for personal book logging (`Run_SQL.py`, `Knihy.py`).
 
 ## Tech Stack
-- **Pandas & NumPy** – Data wrangling, categorical sorting, and string parsing.
+- **Pandas & NumPy** – Data wrangling, string parsing, and categorical sorting.
 - **SQLite3 / SQL** – Relational database management and structured query executions.
 - **Seaborn & Matplotlib** – Heatmaps (`magma_r`) and distribution plots.
+- **CSV / Flat Files** – Structured tabular data storage for standalone execution.
